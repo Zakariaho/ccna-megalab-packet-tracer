@@ -51,6 +51,25 @@ It is designed for learning, practice, and verification of CCNA concepts.
 
 ---
 
+## 🔐 Traffic & Reachability Summary
+
+| Source            | Destination           | Allowed | Control Mechanism |
+|-------------------|----------------------|---------|-------------------|
+| Same VLAN hosts   | Same VLAN hosts      | Yes     | Layer 2 switching |
+| Office A PCs (10.1.0.0/24) | Office B PCs (10.3.0.0/24) | ICMP only | Extended ACL `OfficeA_to_OfficeB` |
+| Office A PCs      | Office B PCs         | No      | Explicit ACL deny |
+| User VLANs        | Internet / WAN       | Yes     | PAT using ACL 2   |
+| Wi-Fi VLAN        | Internet / WAN       | Yes     | PAT using ACL 2   |
+| Unauthorized VLANs| Restricted networks  | No      | ACL enforcement  |
+
+---
+### 🔑 Management & Authentication Controls
+Username: cisco
+Password: ccna
+Priviliged access: Jeremysitlab
+
+---
+
 ## ⚠️ Notes & Limitations
 
 - Wireless section may not function fully due to Packet Tracer limitations.  
