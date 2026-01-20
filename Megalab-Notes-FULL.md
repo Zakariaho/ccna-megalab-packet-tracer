@@ -1,6 +1,6 @@
-# CCNA Mega Lab – Word Document Aligned Version
+# CCNA Mega Lab
 
-This version **strictly follows the structure, numbering, wording, and ordering of the original Word document**, with **all commands placed inside consistent triple-backtick (``` ) code blocks**.
+This is the full list of configurations structured in the same way as the activities within the lab.
 
 ---
 
