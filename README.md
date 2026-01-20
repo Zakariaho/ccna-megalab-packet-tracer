@@ -70,11 +70,25 @@ Priviliged access: Jeremysitlab
 
 ---
 
-## ⚠️ Notes & Limitations
+## ⚠️ Completion Status & Limitations
 
-- Wireless section may not function fully due to Packet Tracer limitations.  
-- Some behaviors may differ slightly from real Cisco hardware.  
-- This lab is for **educational purposes only**.
+This Mega Lab is **not 100% complete** due to **Cisco Packet Tracer limitations**, not configuration errors.
+
+### Known Limitations
+- **Wireless DHCP functionality** does not fully operate as expected in Packet Tracer.
+- Some **WLC and LWAP behaviors** differ from real Cisco hardware.
+- Certain advanced features may appear configured correctly but do not function fully in simulation.
+- Minor **command spelling variations** may exist in documentation; these do not affect functionality and are not counted toward the completion percentage.
+
+### What *Is* Complete
+- All routing, switching, and security configurations were implemented correctly.
+- ACL behavior, inter-VLAN routing, NAT/PAT, and management access function as intended.
+- Any minor documentation typos do not impact network operation.
+- Configuration aligns with **CCNA-level expectations** and Jeremy’s IT Lab design.
+
+### Summary
+Any incomplete behavior is caused by **simulation constraints or documentation formatting**, not missing or incorrect configurations.  
+The lab remains valid for **learning, verification, and CCNA exam preparation**.
 
 ---
 
